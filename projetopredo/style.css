@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    background-color: rgb(43, 43, 88);
+    justify-content: space-around;
+}
+
+nav {
+    align-items: center;
+}
+
+.aa {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-items: right;
+    color: rgb(143, 238, 238);
+    padding-top: 30px;
+    padding-left: 50px;
+    display: block;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 120px;
+    vertical-align: middle;
+    margin-top: -100px;
+    background-color: rgb(143, 238, 238);
+    width: 500px;
+    margin-left: 550px;
+}
+
+a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(43, 43, 88);
+    text-decoration:none;
+  }
+  a:hover {
+    color: #ffffff;
+    text-decoration-style: double;
+  }
+  
+  }
+
+  
+
+.redesocial {
+    
+        height: 30px;
+        width: 30px;
+       
+        display: block;
+        justify-content: flex-start;
+       
+    
+}
+
+
+
+ .media_object {
+    height: 30px;
+    width: 30px;
+   
+    display: block;
+    
+    
+}
+
+.media-oobject {
+    height: 30px;
+    width: 30px;
+   
+    display: block;
+    justify-items: right;
+    margin-left: 750px;
+    margin-left: -5px;
+}
+
+#tudo {
+    background-image: url(post.1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    flex-wrap: wrap-reverse;
+    
+}
+
+
+
+
+.me {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ma {
+    display: block;
+    justify-content: center;
+    color:white;
+    padding-top: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.foto_sobreposicao > img {
+    border-radius: 250px;
+    margin-top: 90px;
+    width: 300px;
+    height: 300px;
+}
+
+#habilidades {
+    font-size: 60px;
+    color: black;
+    padding-top: 15px;
+    padding-left: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     list-style-image: url(TIQUE.png);
+     list-style-position: outside;
+     display: block;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(143, 238, 238);
+    padding-top: 15px;
+    padding-left: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#uh  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.junto {
+    display: block;
+}
+
+.ooi {
+    font-size: 40px;
+    color: rgb(143, 238, 238);
+    padding-bottom: 90px;
+    padding-left: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#servicos_feitos > img {
+    width: 365px;
+    height: 265px;
+    padding: 42px;
+}
+
+#servicos_feitos > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size: 30px;
+     padding-left: 90px;
+     background-color: rgb(143, 238, 238);
+     width: 380px;
+    list-style-type: none;
+}
+
+
+footer {
+    background-color:  rgb(43, 43, 88);
+    display: flex;
+    color: rgb(143, 238, 238);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     height: 200px;
+     justify-content: space-around;
+}
+
+#mecontrata {
+    display: block;
+    
+
+}
+
+.comentarios {
+    display: block;
+}
+
+#btn_menu{
+    display: none;
+}
+@media (max-width:1355px){
+    
+        
+}
+
+@media (max-width:980px){
+    #btn_menu{
+        display: flex;
+        
+        width: 30px;
+        height: 30px;
+        background-color: none;
+        color: rgb(143, 238, 238);}
+        
+      
+        .menu {
+        margin: 0;
+        color:#000;
+        flex-direction: column;
+        height: auto;
+        display: none;
+        position: absolute;
+        top:130px;
+        }
+        
+        .active{
+            display: block;
+        }
+        .aa {
+            justify-content: center;
+        }
+}
